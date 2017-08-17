@@ -4,8 +4,8 @@ html{
 body{
 	margin-left: 0px;
 	padding: 0px;
+	
 }
-
 .menu_horizontal{
 	border: 1px solid black;
 	width: 12.5rem;
@@ -26,6 +26,7 @@ body{
 	text-align: center;
 	border: 1px solid black;
 	position: relative;
+	
 }
 
 .img_perfil{
@@ -82,11 +83,10 @@ body{
 .conteudo{
 	margin-left: 200px;
 	position: absolute;
-	border: 1px solid red;
 	margin-top: 60px;
 	width: 84%;
 	color: blue;
-	z-index:0
+	z-index:0;
 	margin-bottom: 1px;
 }
 
@@ -102,5 +102,26 @@ body{
 	text-align: center;
 	margin-top: 10px;
 	position: relative;
+
+	}
+	
+	
+.botao_vertical{
+	border: 1px solid black;
+	position: relative;
+	top: 22px;
+	height: 400px;
+	margin-left: 0px;
+}
+
+.botao_vertical ul{
+	text-decoration: none;
+	position: center;
+	
+}
+
+.botao_vertical li{
+	border: 1px solid black;
+list-style-type:none;
 
 }

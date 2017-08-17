@@ -9,11 +9,19 @@ body{
 .menu_horizontal{
 	border: 1px solid black;
 	width: 12.5rem;
-	height: 592px;
+	height:100%;
 	margin-bottom: 0px;
 	position: absolute;
 	position: fixed;
+	background-color: #ccc;
 }
+
+.divisao_central{
+	border: 1px solid black;
+	margin: 5px 5px 5px 5px;
+	height: 99%;
+}
+
 .floate{
 	text-align: center;
 	border: 1px solid black;
@@ -59,11 +67,7 @@ body{
 	margin-left: 3px;
 }
 
-.divisao_central{
-	border: 1px solid black;
-	margin: 5px 5px 5px 5px;
-	height: 580px;
-}
+
 
 .menu_vertical{
 	border: 1px solid black;

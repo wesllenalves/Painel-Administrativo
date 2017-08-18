@@ -18,20 +18,18 @@ body{
 }
 
 .divisao_central{
-	border: 1px solid black;
 	margin: 5px 5px 5px 5px;
 	height: 99%;
 }
 
 .floate{
-	text-align: center;
-	border: 1px solid black;
+	text-align: center;	
 	position: relative;
+	color: #fff;
 	
 }
 
 .img_perfil{
-	border: 1px solid black;
 	height: 75px;
 	margin-top: 3px;
 	position: absolute;
@@ -49,8 +47,7 @@ body{
 }
 
 .usuario{
-	position: relative;
-	border: 1px solid black;
+	position: relative;	
 	width: 155px;
 	height: 60px;
 	margin-left: 70px;
@@ -115,7 +112,6 @@ body{
 	
 	
 .botao_vertical{
-	border: 1px solid black;
 	position: relative;
 	top: 22px;
 	height: 400px;
@@ -125,17 +121,17 @@ body{
 .botao_vertical ul{
 	text-decoration: none;
 	position: center;
-	margin-right: 20px;
-	margin-left: 10px;
+	margin-right: 30px;
+	margin-left: 30px;
 	padding-left: 0px;
 	
 	
 }
 
-.botao_vertical li{
-	border: 1px solid black;
+.botao_vertical li{	
 	list-style-type:none;
 	margin-top: 20px;
+	padding: 4px;
 	
 	
 }
@@ -149,4 +145,5 @@ body{
 .botao_vertical a:hover {
 	text-decoration: none; 
 	color: #f00;
+	background-color: blue;
 }
